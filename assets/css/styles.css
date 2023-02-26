@@ -1,0 +1,26 @@
+body {
+  background-image: url("../../assets/img/halo-bg.svg");
+  background-size: contain;
+  display: grid;
+  align-items: center;
+  background-color: black;
+  height: 100vh;
+}
+
+.halo-bg {
+}
+
+.halildiv {
+  background-color: rgba(255,255,255,0.15);
+  border-style: solid;
+  border-color: #fff;
+  border-width: 1px;
+  max-width: 95%;
+  margin: auto;
+  padding: 2rem 1rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  width: 95%;
+}
+
